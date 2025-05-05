@@ -1,9 +1,11 @@
 import React from 'react'
 import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { SiProgress, SiAntdesign,SiChatbot} from "react-icons/si";
+import { CgWebsite } from "react-icons/cg";
 import Title from '../layouts/Title';
 import Card from './Card';
+
 
 const Features = () => {
   return (
@@ -22,7 +24,7 @@ const Features = () => {
         <Card
           title="Web Development"
           des="I build clean, responsive, and high-performance websites that deliver seamless user experiences. Focused on modern designs, functionality, and customized solutions for businesses and individuals."
-          icon={<AiFillAppstore />}
+          icon={<CgWebsite /> }
         />
         <Card
           title="SEO Optimisation"
@@ -42,7 +44,7 @@ const Features = () => {
         <Card
           title="Chatbot Dev"
           des="Building smart, interactive chatbots for websites and apps to improve customer support and automate services"
-          icon={<FaGlobe />}
+          icon={<SiChatbot />}
         />
       </div>
     </section>
